@@ -66,3 +66,11 @@ p {
   height: 100px;
 
 }
+
+#developerdiv {
+  
+   display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  
+}
