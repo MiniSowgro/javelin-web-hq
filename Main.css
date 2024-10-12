@@ -75,8 +75,11 @@ p {
   
 }
 
+#main {
+  padding: 20px;
+}
+
 .sidebar {
-  
   height: 100%;
   width: 0;
   position: fixed;
@@ -86,8 +89,12 @@ p {
   background-color: #111;
   overflow-x: hidden;
   padding-top: 60px;
-  transition: 0.5s;
-  
+  transition: width 0.5s ease;
+}
+
+.openbtn {
+  position: relative;
+  z-index: 2;
 }
 
 .sidebar a {
@@ -118,14 +125,16 @@ p {
 }
 
 .openbtn {
-  
+  position: absolute;
+  top: 10px;
+  left: 10px;
   font-size: 20px;
   cursor: pointer;
   background-color: #111;
   color: white;
   padding: 10px 15px;
   border: none;
-  
+  transition: left 0.5s ease;
 }
 
 .openbtn:hover {
