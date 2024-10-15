@@ -5,6 +5,12 @@ h1 {
   text-align: center
 }
 
+#body {
+
+  background-color: #F9F7F5;
+
+}
+
 p { 
 
   font-family: "Arial" , sans-serif;
