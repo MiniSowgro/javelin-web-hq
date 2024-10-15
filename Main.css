@@ -28,6 +28,12 @@ p {
 
 }
 
+#orangediv {
+
+  background-color: #fff
+  
+}
+
 #mini {
 
   font-family: "Arial" , sans-serif;
@@ -181,5 +187,17 @@ cyruspic {
 
   font-family: "Arial" , sans-serif;
   text-align: center;
+
+}
+
+#minidiv {
+
+  background-color: #fff
+
+}
+
+#ultradiv {
+
+  background-color: #fff
 
 }
