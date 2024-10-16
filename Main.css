@@ -37,6 +37,8 @@ p {
 #orangediv {
 
   background-color: #fff
+  border-radius: 20px;
+  border: 1px solid #eeeeee
   
 }
 
@@ -199,11 +201,15 @@ p {
 #minidiv {
 
   background-color: #fff
-
+  border-radius: 20px;
+  border: 1px solid #eeeeee
+  
 }
 
 #ultradiv {
 
   background-color: #fff
-
+  border-radius: 20px;
+  border: 1px solid #eeeeee
+  
 }
